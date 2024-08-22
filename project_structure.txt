@@ -1,0 +1,11 @@
+.
+  |-frontend
+  |  |-public
+  |  |-src
+  |  |  |-components
+  |  |  |  |-pages
+  |-tests
+  |-backend
+  |  |-app
+  |-.github
+  |  |-workflows
