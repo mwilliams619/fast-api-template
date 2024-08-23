@@ -51,7 +51,14 @@ jobs:
         registry: ghcr.io
         username: ${{ github.actor }}
         password: ${{ secrets.GITHUB_TOKEN }}
-
+    
+    - name: Check directory contents
+      run: |
+        pwd
+        ls -la
+        cd backend
+        ls -la
+        
     - name: Build and push Docker image
       uses: docker/build-push-action@v4
       with:
