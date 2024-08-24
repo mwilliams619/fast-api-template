@@ -58,7 +58,7 @@ jobs:
         ls -la
         cd backend
         ls -la
-        
+
     - name: Build and push Docker image
       uses: docker/build-push-action@v4
       with:
