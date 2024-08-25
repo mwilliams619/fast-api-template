@@ -17,3 +17,4 @@ def read_environment():
     environment = os.getenv("FASTAPI_ENV", "development")
     return {"message": f"Running in {environment} environment"}
 
+#debug
